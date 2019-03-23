@@ -1,0 +1,1 @@
+ls -1 | awk '{ print length($0) " " $0; }' | sort -r -n | cut -d ' ' -f 2-

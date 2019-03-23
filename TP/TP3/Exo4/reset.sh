@@ -1,0 +1,1 @@
+find . *.jpg -exec mv {} images/ \;

@@ -1,0 +1,12 @@
+//EXO3
+	.1
+Controleur de periph = cicuit electronique charger de commander un perif (hardware interface)
+Pilote = program qui permet a' l'OS de communiquer avec le controleur de periph (softare interface)
+
+
+	.2
+
+
+	.3
+	.4
+	.5

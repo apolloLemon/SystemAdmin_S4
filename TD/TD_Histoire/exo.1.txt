@@ -1,0 +1,31 @@
+//EXO1
+	.1
+deux f() principales:
+-> abstaction materiel pour les dev
+-> gerer Resources/IO avec le materiel
+
+electromenagers => monotaches
+
+
+	.2
+stockage temporaire de donne' en file
+FIFO
+
+	.3
+Transistor.cost << Tube.cost
+Transistor.size << Tube.size
+Transistor.durabilite' >> Tube.durabilite'
+
+	.4
+CPU, RAM, MOBO, Stockage
+
+	.5
+Registre > Cache > RAM > SSD > HDD > DVD-ROM
+
+	.6
+Memoire volatile = RAM
+a besoin de courant pour stocker en memoire
+
+	.7
+multiprog est l'apt d'un OS a' exec *prog (app) simultanement (sur *proc ou *core), ou a' donner l'illusion d'un traitement simulatane' d'app par le biais de l'ordonnancement preemptif des apps.
+multiprog introduit afin d'augmenter les perf du sys. les app IOwait bcp, multiprog =>
