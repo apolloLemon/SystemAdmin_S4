@@ -2,6 +2,7 @@
 NomFichier=""
 NomSortie=""
 DATE_FLAG="0"
+MOTIF=""
 
 while [[ -n $1 ]] ; do
 	case $1 in
@@ -19,13 +20,22 @@ while [[ -n $1 ]] ; do
 		-dateall)
 			DATE_FLAG="1"
 			;;
+		-motif)
+			MOTIF=$2
+			shift
+			;;
 	esac
 	shift
 done
 #echo $NomFichier
 #echo $NomSortie
 
-for i in $NomFichier/*.jpg; do
+#for i in $NomFichier/*.jpg; do
+for i in $NomFichier/*; do
+	if grep $MOTIF $i
+	then 
+		echo "motif"
+	fi
 	echo $i
 	fulldate=$(exiftool -b -datetimeoriginal $i)
 	#if [ -z fulldate -a DATE_FLAG ]
