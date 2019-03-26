@@ -1,1 +1,2 @@
-find . *.jpg -exec mv {} images/ \;
+rm -R dest/*
+cp images/* src/
